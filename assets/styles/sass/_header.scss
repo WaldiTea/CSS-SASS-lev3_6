@@ -7,7 +7,7 @@ header {
   margin: 3rem 0 2.5rem 0;
 
   h1 {
-    font-size: $fsXl;
+    font-size: $fs-xl;
   }
 
   nav {
@@ -18,7 +18,7 @@ header {
       justify-content: space-between;
 
       li {
-        font-size: $fsLg;
+        font-size: $fs-lg;
 
         a {
           transition: all 0.5s;
