@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Open+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $OpenSans;
+}
+
+body {
+  text-align: center;
+
+  h1,
+  h2,
+  h3 {
+    font-family: $Libre;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    color: #3d4246;
+    font-size: $fsMd;
+  }
+}

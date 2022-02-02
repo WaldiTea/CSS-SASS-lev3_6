@@ -1,0 +1,117 @@
+/*Farben: #3d4246 #f5f5f5 #000 #fff*/
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+
+body {
+  text-align: center;
+}
+body h1,
+body h2,
+body h3 {
+  font-family: "Libre Caslon Display";
+}
+body li {
+  list-style: none;
+}
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+body img {
+  width: 100%;
+}
+body p {
+  color: #3d4246;
+  font-size: 1.5rem;
+}
+
+header {
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-bottom: 1px solid #000;
+  margin: 3rem 0 2.5rem 0;
+}
+header h1 {
+  font-size: 3rem;
+}
+header nav {
+  margin-bottom: 2.5rem;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li {
+  font-size: 2rem;
+}
+header nav ul li a {
+  transition: all 0.5s;
+}
+header nav ul li:hover {
+  text-decoration: underline;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+main section {
+  margin-bottom: 5rem;
+}
+main section h2,
+main section h3 {
+  margin: 2rem 0;
+}
+main section h2 {
+  font-size: 3rem;
+}
+main section h3 {
+  font-size: 1.75rem;
+}
+main section .split-article {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+main section .split-article article p:not(:first-of-type) {
+  margin: 1rem 0;
+}
+main section .button {
+  background: #3d4246;
+  color: #fff;
+  letter-spacing: 0.5rem;
+  padding: 0.5rem 12rem;
+  transition: all 0.5s;
+}
+main section .button:hover {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+main section figure {
+  margin-bottom: 3rem;
+}
+main section:last-of-type p {
+  text-align: start;
+}
+
+footer {
+  background: lightgray;
+  font-size: 1.25rem;
+  padding: 0 10%;
+}
+footer ul {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}/*# sourceMappingURL=main.css.map */

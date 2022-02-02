@@ -1,0 +1,12 @@
+footer {
+  background: lightgray;
+  font-size: $fsSm;
+  padding: 0 10%;
+
+  ul {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+  }
+}
