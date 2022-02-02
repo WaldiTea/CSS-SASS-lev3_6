@@ -1,5 +1,4 @@
-/*Farben: #3d4246 #f5f5f5 #000 #fff*/
-@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Open+Sans:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -58,6 +57,18 @@ header nav ul li:hover {
   text-decoration: underline;
 }
 
+footer {
+  background: lightgray;
+  font-size: 1.25rem;
+  padding: 0 10%;
+}
+footer ul {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+}
+
 main {
   width: 80%;
   margin: 0 auto;
@@ -102,16 +113,4 @@ main section figure {
 }
 main section:last-of-type p {
   text-align: start;
-}
-
-footer {
-  background: lightgray;
-  font-size: 1.25rem;
-  padding: 0 10%;
-}
-footer ul {
-  height: 10vh;
-  display: flex;
-  align-items: center;
-  gap: 10rem;
 }/*# sourceMappingURL=main.css.map */
